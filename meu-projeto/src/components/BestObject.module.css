@@ -1,0 +1,14 @@
+.bestObjectTxt {
+  background-color: aquamarine;
+  border-radius: 15px;
+  color: #555;
+}
+
+h2 {
+  margin: 5px;
+}
+
+article {
+  background-color: aquamarine;
+  border-radius: 0;
+}
