@@ -5,7 +5,7 @@ function List() {
     <>
       <h1>My List</h1>
       <ul>
-        <Item brand="Calvin Klein" releaseYear={1985} />
+        <Item brand="Calvin Klein" releaseYear={1985} id={4} />
       </ul>
     </>
   )

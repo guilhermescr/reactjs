@@ -1,8 +1,5 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
-import SayMyName from './components/SayMyName';
-import Bark from './components/Bark';
-import List from './components/List';
+import Evento from './components/Evento';
 
 function App() {
 
@@ -19,11 +16,8 @@ function App() {
 
   return (
     <div className="App">
-      <HelloWorld />
-      <SayMyName nome="Guilherme" sobrenome="Rocha" />
-      <SayMyName nome="Karina" sobrenome="Rocha" />
-      <Bark bark={sayWoof(2)} />
-      <List />
+      <h1>Testando Eventos</h1>
+      <Evento />
     </div>
   );
 }
