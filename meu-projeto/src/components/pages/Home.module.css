@@ -1,0 +1,12 @@
+.heartsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1em;
+}
+
+.heartsContainer img {
+  max-height: 150px;
+  height: 100%;
+}

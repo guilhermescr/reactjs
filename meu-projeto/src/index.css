@@ -1,19 +1,20 @@
-body {
-  background-color: #121212;
+* {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif
+  color: #fff;
 }
 
-h1, p {
-  color: yellow;
+body {
+  background-color: cornflowerblue;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
   position: relative;
 }
 
-.dark_color {
-  background-color: #ddd;
+.heartIcon * {
+  color: red;
 }
 
-.dark_color h1, .dark_color p {
-  color: #000;
+.reactIcon * {
+  fill: #616bfb;
 }
