@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "name": "Guilherme Santos",
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "Guilherme Santos",
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Projeto 1",
+      "budget": "25000",
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "Projeto 1",
+      "budget": "25000",
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "budget": "2500",
+      "name": "Contratar Dev Frontend Jr.",
+      "cost": 0,
+      "services": [],
+      "id": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
