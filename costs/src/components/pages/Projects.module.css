@@ -1,0 +1,25 @@
+.project_container {
+  padding: 2em;
+  width: 100%;
+}
+
+.title_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+@media (max-width: 720px) {
+  .title_container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .title_container a {
+    max-width: fit-content;
+  }
+
+  .project_container > div:last-child {
+    gap: 10px;
+  }
+}
