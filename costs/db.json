@@ -1,79 +1,15 @@
 {
   "projects": [
     {
-      "name": "Guilherme Santos",
+      "name": "Etapas Finais do Curso de React",
+      "budget": "0",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
       "cost": 0,
       "services": [],
       "id": 1
-    },
-    {
-      "name": "Guilherme Santos",
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "Projeto 1",
-      "budget": "25000",
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "Projeto 1",
-      "budget": "25000",
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "budget": "2500",
-      "name": "Contratar Dev Frontend Jr.",
-      "cost": 0,
-      "services": [],
-      "id": 6
-    },
-    {
-      "name": "Testando Feature",
-      "budget": "2000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "name": "Outro teste",
-      "budget": "12555",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 8
-    },
-    {
-      "name": "Criar Projeto",
-      "budget": "10000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 9
     }
   ],
   "categories": [
