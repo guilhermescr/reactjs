@@ -7,8 +7,15 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 2000,
+      "services": [
+        {
+          "name": "Servicees",
+          "cost": "2000",
+          "description": "Teste de serviço.",
+          "id": "6d5a7ca7-b456-4ed5-936a-db5277aa40dd"
+        }
+      ],
       "id": 1
     },
     {
@@ -18,21 +25,8 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 400,
-      "services": [
-        {
-          "name": "Montar planilha de gastos",
-          "description": "Criar uma planilha para administrar os gastos.",
-          "cost": "100",
-          "id": "c27f2bd0-ec68-436b-8e23-5d0f79702005"
-        },
-        {
-          "name": "Montar planilha de gastos 2",
-          "description": "Criar uma planilha para administrar os gastos.",
-          "cost": "300",
-          "id": "296b6faf-81fe-4dca-be3d-f22fd3cf6415"
-        }
-      ],
+      "cost": -1200,
+      "services": [],
       "id": 2
     }
   ],
