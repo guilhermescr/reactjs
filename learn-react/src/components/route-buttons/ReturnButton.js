@@ -19,7 +19,19 @@ const ReturnButtonElement = styled.button`
 export default function ReturnButton() {
   return (
     <ReturnButtonElement tabIndex="-1">
-      <LinkButton to="/" text="&lt;"></LinkButton>
+      <LinkButton
+        to="/"
+        text="&lt;"
+        alignItems="center"
+        borderRadius="50%"
+        color="#000"
+        display="flex"
+        height="100%"
+        justifycontent="center"
+        width="100%"
+        hover={{ color: '#fff' }}
+        active={{ color: '#fff' }}
+      ></LinkButton>
     </ReturnButtonElement>
   );
 }

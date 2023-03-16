@@ -1,12 +1,14 @@
 import styled from 'styled-components';
+import LinkButton from './form/LinkButton';
 
-const HeaderElement = styled.footer`
+const HeaderElement = styled.header`
   align-items: center;
   background-color: #afa3aa;
   color: #fafafa;
   display: flex;
+  height: 60px;
   justify-content: space-between;
-  padding: 20px;
+  padding-inline: 20px;
   text-align: center;
   width: 100%;
 `;
@@ -23,8 +25,12 @@ export default function Header() {
       <h2>Auth Project</h2>
       <nav>
         <UlElement>
-          <li>Sign Up</li>
-          <li>Sign In</li>
+          <li>
+            <LinkButton to="#" text="Sign Up" borderRadius="50%" color="#fff" />
+          </li>
+          <li>
+            <LinkButton to="#" text="Sign In" borderRadius="50%" color="#fff" />
+          </li>
         </UlElement>
       </nav>
     </HeaderElement>

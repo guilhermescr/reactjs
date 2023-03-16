@@ -4,6 +4,7 @@ const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
+  min-height: calc(100vh - 118px);
   padding: 20px;
 `;
 
