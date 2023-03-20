@@ -13,13 +13,14 @@ const FormInput = styled.input`
   }
 `;
 
-export default function Input({ type }) {
+export default function Input({ type, refConst }) {
   return type === 'username' ? (
     <FormInput
       type="text"
       name="username"
       id="username"
       placeholder="Insert a username"
+      ref={refConst}
     />
   ) : (
     <FormInput
@@ -27,6 +28,7 @@ export default function Input({ type }) {
       name="password"
       id="password"
       placeholder="Insert a password"
+      ref={refConst}
     />
   );
 }

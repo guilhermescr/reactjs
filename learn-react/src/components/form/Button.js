@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import LinkButton from './LinkButton';
 
 const SubmitButton = styled.button`
   align-self: center;
@@ -7,7 +8,8 @@ const SubmitButton = styled.button`
   border-radius: 10px;
   color: #fff;
   cursor: pointer;
-  padding: 10px 15px;
+  display: block;
+  padding: 10px 0;
   width: max-content;
   &:hover {
     background-color: #404040;
@@ -19,8 +21,8 @@ const SubmitButton = styled.button`
 
 export default function Button() {
   return (
-    <SubmitButton type="submit" onClick={e => e.preventDefault()}>
-      Sign Up
+    <SubmitButton>
+      <LinkButton to="/user/gui" text="Sign Up" padding="10px 30px" />
     </SubmitButton>
   );
 }
