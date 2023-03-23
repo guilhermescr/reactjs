@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import LinkButton from './LinkButton';
 
 const SubmitButton = styled.button`
   align-self: center;
@@ -9,7 +8,7 @@ const SubmitButton = styled.button`
   color: #fff;
   cursor: pointer;
   display: block;
-  padding: 10px 0;
+  padding: 10px 30px;
   width: max-content;
   &:hover {
     background-color: #404040;
@@ -19,10 +18,11 @@ const SubmitButton = styled.button`
   }
 `;
 
-export default function Button() {
-  return (
-    <SubmitButton>
-      <LinkButton to="/user/gui" text="Sign Up" padding="10px 30px" />
-    </SubmitButton>
-  );
+export default function Button({ saveUserData, username }) {
+  function handleClick() {
+    console.clear();
+    console.log('Before Saving');
+    saveUserData(username);
+  }
+  return <SubmitButton onClick={handleClick}>Sign Up</SubmitButton>;
 }

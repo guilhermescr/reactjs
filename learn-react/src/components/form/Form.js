@@ -10,5 +10,7 @@ const FormElement = styled.form`
 `;
 
 export default function Form({ children }) {
-  return <FormElement>{children}</FormElement>;
+  return (
+    <FormElement onSubmit={e => e.preventDefault()}>{children}</FormElement>
+  );
 }

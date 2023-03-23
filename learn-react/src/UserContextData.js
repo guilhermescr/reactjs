@@ -7,7 +7,41 @@ export default function UserContextData({ children }) {
     user: { username: '', password: '' },
     usernameInput: '',
     passwordInput: '',
-    setNewUserData: data => setUserData(data)
+    setNewUserData: (prop, value) => {
+      if (prop === 'username') {
+        setUserData({
+          user: {
+            username: value,
+            password: userData.user.password
+          },
+          ...userData
+        });
+      }
+
+      if (prop === 'password') {
+        setUserData({
+          user: {
+            username: userData.user.username,
+            password: value
+          },
+          ...userData
+        });
+      }
+
+      if (prop === 'usernameInput') {
+        setUserData({
+          ...userData,
+          usernameInput: value
+        });
+      }
+
+      if (prop === 'passwordInput') {
+        setUserData({
+          ...userData,
+          passwordInput: value
+        });
+      }
+    }
   });
 
   return (
